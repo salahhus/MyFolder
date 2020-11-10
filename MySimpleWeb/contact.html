@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head> 
+  <meta charset="UTF-8">
+  <meta name="description" content="Presentation of simple  web">
+  <meta name="author" content="Husniddin Salahiddinov">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="scripts/script.js" ></script>
+  <title>My simple web</title>
+</head>
+<body>
+  <!-- my header menu -->
+  <div id="myHeader">
+     <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="about.html">About us</a></li>
+         <li><a href="news.html">News</a></li>
+         <li><a href="contact.html">Contact</a></li>
+     </ul>
+  </div>
+  <div class="myMainBody">
+
+    <!-- finder in google search -->
+    <div id="myFinder">
+      <form action="https://www.google.com">
+        <input name="q" type="text" placeholder="Find in google .." />
+        <button type="submit">Find</button>
+      </form>
+    </div>
+    <div id="main">
+
+      <div>
+        <div id="title">
+            <h1>Contact us</h1>
+          </div>
+      <!-- contact form -->
+        <div id="contactFormId">
+            <div>
+                <h3>Our staff</h3>
+                <dl>
+                    <dt><b>CEO:</b></dt>
+                    <dd>Martin Lufther</dd>
+                    <dt><b>Technical manager:</b></dt>
+                    <dd>David Richardson</dd>
+                    <dt><b>Project manager:</b></dt>
+                    <dd>Alice Lufther</dd>
+                </dl>
+            </div>
+
+            <table>
+                <tr>
+                    <td><input type="text" placeholder="Firstname"  name="firstName"/></td>
+                </tr>
+                <tr>
+                    <td><input type="text"  placeholder="Lastname"  name="lastName"/></td>
+                </tr>
+                <tr>
+                    <td><input type="text"  placeholder="Email"  name="email"></td>
+                </tr>
+                <tr>
+                    <td><input type="text"  placeholder="Telephone number"  name="telephone"></td>
+                </tr>
+                <tr>
+                    <td>
+                    <textarea rows="20" placeholder="Your text message here.." name="description" cols="100"></textarea>
+                </td>
+                </tr>
+                <tr style="text-align: right;">
+                    <td><button type="submit">Send</button></td>
+                </tr>
+            </table>
+           
+        </div>
+
+    
+      </div>
+
+    </div>
+    
+  </div>
+</body>

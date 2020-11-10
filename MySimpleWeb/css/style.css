@@ -1,0 +1,72 @@
+
+body
+{
+   background-image: url('../img/bgImage.jpg');  
+   background-size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #888;
+  }
+
+  #myFinder
+  {
+      text-align: right;
+       margin-top:100px;
+  }
+  #title
+  {
+    text-align: center;
+  }
+
+  .myMainBody
+  {
+      max-width: 1500px;
+      margin: auto;
+      background: white;
+      padding: 10px;
+      max-height: 1500px;
+      text-align: justify;
+  }
+  .myMainBody img
+  {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 6px;
+    width: 350px;
+  }
+
+  #textId
+  {
+      padding: 100px;
+      text-align: justify;
+  }
+  #contactFormId
+  {
+    padding-left: 370px;
+  }
+
+  
